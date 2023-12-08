@@ -8,7 +8,7 @@ using System.Windows.Forms;
 
 namespace Week6.Entities
 {
-    class Ball : Label
+    public class Ball : Label
     {
         public Ball()
         {
