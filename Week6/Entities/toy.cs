@@ -10,7 +10,7 @@ using Week6.Abstraction;
 
 namespace Week6.Entities
 {
-    public class Ball : Toy
+    public class toy : Toy
     {
         
 
