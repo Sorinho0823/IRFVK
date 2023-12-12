@@ -33,6 +33,7 @@ namespace carfactory
             this.mainPanel = new System.Windows.Forms.Panel();
             this.createTimer = new System.Windows.Forms.Timer(this.components);
             this.conveyorTimer = new System.Windows.Forms.Timer(this.components);
+            this.btnColor_Click = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // mainPanel
@@ -56,11 +57,21 @@ namespace carfactory
             this.conveyorTimer.Interval = 10;
             this.conveyorTimer.Tick += new System.EventHandler(this.conveyorTimer_Tick);
             // 
+            // btnColor_Click
+            // 
+            this.btnColor_Click.Location = new System.Drawing.Point(33, 29);
+            this.btnColor_Click.Name = "btnColor_Click";
+            this.btnColor_Click.Size = new System.Drawing.Size(108, 89);
+            this.btnColor_Click.TabIndex = 1;
+            this.btnColor_Click.UseVisualStyleBackColor = true;
+            this.btnColor_Click.Click += new System.EventHandler(this.btnColor_Click_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.btnColor_Click);
             this.Controls.Add(this.mainPanel);
             this.Name = "Form1";
             this.Text = "Form1";
@@ -73,6 +84,7 @@ namespace carfactory
         private System.Windows.Forms.Panel mainPanel;
         private System.Windows.Forms.Timer createTimer;
         private System.Windows.Forms.Timer conveyorTimer;
+        private System.Windows.Forms.Button btnColor_Click;
     }
 }
 

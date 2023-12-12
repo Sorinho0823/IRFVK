@@ -57,6 +57,17 @@ namespace carfactory
                 _toys.Remove(oldestBall);
             }
         }
+
+        private void btnColor_Click_Click(object sender, EventArgs e)
+        {
+            var button = (Button)sender;
+            var colorPicker = new ColorDialog();
+
+            colorPicker.Color = button.BackColor;
+            if (colorPicker.ShowDialog() != DialogResult.OK)
+                return;
+            button.BackColor = colorPicker.Color;
+        }
     }
 }
 
