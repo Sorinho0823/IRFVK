@@ -8,7 +8,7 @@ using System.Windows.Forms;
 
 namespace carfactory.Entities
 {
-    class Ball : Label
+    public class Ball : Label
     {
         public Ball()
         {
