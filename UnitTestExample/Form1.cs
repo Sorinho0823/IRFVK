@@ -11,7 +11,7 @@ using UnitTestExample.Controllers;
 
 namespace UnitTestExample
 {
-    public partial class Form1 : Form1
+    public partial class Form1 : Form
     {
         private AccountController _controller = new AccountController();
 
