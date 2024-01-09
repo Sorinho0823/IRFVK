@@ -35,6 +35,8 @@ namespace Mikroszim
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.buttonB = new System.Windows.Forms.Button();
             this.buttonStart = new System.Windows.Forms.Button();
+            this.numericUpDown1 = new System.Windows.Forms.NumericUpDown();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
@@ -91,11 +93,19 @@ namespace Mikroszim
             this.buttonStart.Text = "Start";
             this.buttonStart.UseVisualStyleBackColor = true;
             // 
+            // numericUpDown1
+            // 
+            this.numericUpDown1.Location = new System.Drawing.Point(91, 43);
+            this.numericUpDown1.Name = "numericUpDown1";
+            this.numericUpDown1.Size = new System.Drawing.Size(81, 22);
+            this.numericUpDown1.TabIndex = 6;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(793, 479);
+            this.Controls.Add(this.numericUpDown1);
             this.Controls.Add(this.buttonStart);
             this.Controls.Add(this.buttonB);
             this.Controls.Add(this.textBox1);
@@ -104,6 +114,7 @@ namespace Mikroszim
             this.Controls.Add(this.label1);
             this.Name = "Form1";
             this.Text = "Form1";
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -117,6 +128,7 @@ namespace Mikroszim
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.Button buttonB;
         private System.Windows.Forms.Button buttonStart;
+        private System.Windows.Forms.NumericUpDown numericUpDown1;
     }
 }
 
